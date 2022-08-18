@@ -1,0 +1,22 @@
+package Oracle_Assignments;
+
+public class Chickens01 {
+    public static void main(String[] args) {
+
+        //On Monday, Farmer Brown has chickenCount chickens
+        //On Tuesday morning, Farmer Brown gains 1 chicken
+        //On Wednesday morning, a wild beast eats half the chickens
+        //How many eggs did Farmer Brown collect if he started with:
+
+        String chickenCount = "3";
+        String eggsPerChicken = "20";
+        int c = 3 +1;
+        int w = 4/2;
+
+        System.out.println("On Monday, Farmer Brown has " + chickenCount + " chickens");
+        System.out.println("On Tuesday, Farmer Brown gains 1 chicken. The number of chickens is now " + c );
+        System.out.println("The number of eggs is " + eggsPerChicken);
+        System.out.println("After the wild beast eats half the chickens, the number of chickens left is " + w);
+
+    }
+}
