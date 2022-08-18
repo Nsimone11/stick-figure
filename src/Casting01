@@ -1,0 +1,28 @@
+package Oracle_Assignments;
+
+public class Casting01 {
+    public static void main(String[] args) {
+        //Declare and initialize a byte with a value of 128
+        //Observe NetBeans' complaint
+
+        byte num = (byte) 128;
+        short num2 = (short) 18;
+
+        int myInt;
+        short myShort = 0;
+        myInt = (int) myShort;
+
+        byte num3 = (byte) 127;
+        int c = 1;
+
+        System.out.println(c + myShort + num + num2 + num3 + myInt);
+
+        //Declare and initialize a short with a value of 128
+        //Create a print statement that casts this short to a byte
+
+
+        //Declare and initialize a byte with a value of 127
+        //Add 1 to this variable and print it
+        //Add 1 to this variable again and print it again
+    }
+}
