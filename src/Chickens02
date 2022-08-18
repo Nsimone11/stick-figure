@@ -1,0 +1,33 @@
+package Oracle_Assignments;
+
+public class Chickens02 {
+    public static void main(String[] args) {
+        //On Monday, Farmer Fred collects 100 eggs
+        //On Tuesday, Farmer Fred collects 121 eggs
+        //On Wednesday, Farmer Fred collects 117 eggs
+        //What is the dailyAverage of eggs collected?
+        //How many eggs could be expected in a 30-day monthlyAverage?
+        //If an egg can be sold for a profit of $0.18, what is Farmer Fred's total monthlyProfit for all eggs?
+
+        //The answers should be
+        // dailyAverage = 112.67
+        // monthlyAverage = 3380.0
+        // monthlyProfit = 608.4
+
+        int Monday = 100;
+        int Tuesday = 121;
+        int Wednesday = 117;
+
+        int dailyAverage = (Monday + Tuesday + Wednesday) /3;
+        int monthlyAverage = (dailyAverage) * 30;
+        int monthlyProfit = (int) (3380 * 0.18);
+
+        System.out.println("On Monday, Farmer Fred collects " + Monday + " eggs");
+        System.out.println("On Tuesday, Farmer Fred collects " + Tuesday + " eggs");
+        System.out.println("On Wednesday, Farmer Fred collects " + Wednesday + " eggs");
+        System.out.println("The daily average of the eggs is " + dailyAverage );
+        System.out.println( monthlyAverage + " is the number of eggs expected in a 30-day monthly average");
+        System.out.println("If an egg can be sold for a profit of $0.18, Farmer Fred's total monthly profit for all eggs is " + monthlyProfit );
+
+    }
+}
