@@ -1,0 +1,17 @@
+package Oracle_Assignments;
+
+public class ShoppingCart01 {
+    public static void main(String[] args) {
+        // Declare and initialize String variables.  Do not initialize message yet.
+
+      String custName = "Alex";
+      String action = "buy";
+      String itemDesc = "shirt";
+        // Assign the message variable
+      int s = 5;
+
+        // Print and run the code
+        System.out.println(custName + " wants to " + action + " an" + itemDesc);
+        System.out.println("Her total is " + s );
+    }
+}
