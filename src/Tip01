@@ -1,0 +1,14 @@
+package Oracle_Assignments;
+public class Tip01 {
+    public static void main(String[] args) {
+
+         double tax = 0.05;
+         double tip = 0.15;
+         double originalPrice = 10;
+
+         double findTotal;
+
+            findTotal = tax * tip + originalPrice;
+        System.out.println(findTotal);
+        }
+    }
