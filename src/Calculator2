@@ -1,0 +1,15 @@
+package Oracle_Assignments;
+
+public class Calculator2 {
+    public static void main(String args[]) {
+
+        double tax = .05;
+        double tip = .15;  //Change tax and tip if you prefer different values
+        double originalPrice = 0;
+
+        double findTotal = tax * tip + originalPrice;
+            //Calculate an individual's total after tax and tip
+            //Print this value
+        System.out.println(findTotal);
+        }
+    }
