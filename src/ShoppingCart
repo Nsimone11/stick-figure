@@ -1,0 +1,21 @@
+package Oracle_Assignments;
+
+
+public class ShoppingCart {
+    public static void main (String[] args){
+        String custName = "Steve Smith";
+
+        // Get the index of the space character (" ") in custName.
+
+        int spaceIdx = custName.indexOf(" ");
+        System.out.println("Index of first dash: " + spaceIdx);
+
+        // Use the substring method parse out the first name and print it.
+
+        String firstName = custName.substring(0, 5);
+        System.out.println(firstName);
+
+    }
+
+
+}
