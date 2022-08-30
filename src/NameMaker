@@ -1,0 +1,19 @@
+public class NameMaker {
+
+    public static void main(String args[]) {
+        Scanner reader = new Scanner(System.in);
+        System.out.println("What is your first name?");
+        System.out.println("What is your middle name?");
+        boolean middleName = reader.hasNextLine();
+        System.out.println("What is your last name?");
+        boolean lastName = reader.hasNextLine();
+        System.out.println("Your full name is " + middleName + lastName );
+
+
+
+
+
+
+    }
+
+}
