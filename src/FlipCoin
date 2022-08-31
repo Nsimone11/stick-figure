@@ -1,0 +1,15 @@
+package Oracle_Assignments;
+import java.util.Random;
+import java.util.Scanner;
+
+public class FlipCoin {
+    public static void main(String[] args) {
+        Scanner numberScanner = new Scanner(System.in);
+        System.out.println("Would you like to flip a coin? (Enter a number): ");
+        int userNum = numberScanner.nextInt();
+        Random rand = new Random();
+        int winningNum = rand.nextInt(10) +1;
+        double chance = rand.nextDouble();
+        System.out.println(chance + userNum + winningNum);
+    }
+}
