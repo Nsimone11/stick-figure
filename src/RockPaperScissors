@@ -1,0 +1,14 @@
+package Oracle_Assignments;
+
+import java.util.Random;
+
+public class RockPaperScissors {
+
+    public static void main(String[] args) {
+        Random rand = new Random(3L);
+        System.out.println("Rock, paper, scissors game starting now.");
+        System.out.println("Rock, Random Number 1: " +rand.nextInt(4));
+        System.out.println("Paper, Random Number 2: " +rand.nextInt(4));
+        System.out.println("Scissors, Random Number 2: " +rand.nextInt(4));
+    }
+}
